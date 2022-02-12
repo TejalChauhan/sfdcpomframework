@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="682.885" tests="38" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17+35"/>
+    <property name="sun.boot.library.path" value="/home/tejal/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.0.v20211012-1059/jre/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/tejal/eclipse-workspace/SalesForcePOMFramework"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/tejal/eclipse-workspace/SalesForcePOMFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17+35"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/tejal/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf14576800221513611015.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.15.0-167-generic"/>
+    <property name="user.home" value="/home/tejal"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="tejal"/>
+    <property name="java.class.path" value="/home/tejal/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.18.0.20210618-2246/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="/home/tejal/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.0.v20211012-1059/jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="/home/tejal/eclipse-workspace/SalesForcePOMFramework/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17+35"/>
+  </properties>
+  <testcase name="TestCase1_BlankPassword" classname="com.SalesForce.tests.LoginTest" time="2.195"/>
+  <testcase name="TestCase2_ValidUsernamePassword" classname="com.SalesForce.tests.LoginTest" time="6.055">
+    <failure message="expected [Home Page ~ Salesforce - Developer Edition] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Home Page ~ Salesforce - Developer Edition] but found []
+	at com.SalesForce.tests.LoginTest.TestCase2_ValidUsernamePassword(LoginTest.java:42)
+</failure>
+    <system-out><![CDATA[Pass : text entered
+Pass : text entered
+Pass : button clicked
+title of Page : 
+Home Page: Home Page ~ Salesforce - Developer Edition
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 23891
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 11, 2022 11:20:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TestCase3_RememberedUsername" classname="com.SalesForce.tests.LoginTest" time="9.522"/>
+  <testcase name="TestCase4A_ForgotPassword" classname="com.SalesForce.tests.LoginTest" time="1.467"/>
+  <testcase name="TestCase4B_InvalidUsernamePassword" classname="com.SalesForce.tests.LoginTest" time="2.112"/>
+  <testcase name="TestCase5_UserMenuDropdown" classname="com.SalesForce.tests.UserMenuTest" time="7.254"/>
+  <testcase name="TestCase6_MyProfileUserMenu" classname="com.SalesForce.tests.UserMenuTest" time="70.242">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //a[contains(text(),&apos;About&apos;)]&apos; (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'About')]' (tried for 30 second(s) with 500 milliseconds interval)
+	at com.SalesForce.tests.UserMenuTest.TestCase6_MyProfileUserMenu(UserMenuTest.java:35)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'About')]"}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'tejal-home', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-167-generic', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.Y9Ufn5}, goog:chromeOptions: {debuggerAddress: localhost:39759}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9aacc7787c57829004e8abbc27ba4508
+*** Element info: {Using=xpath, value=//a[contains(text(),'About')]}
+	at com.SalesForce.tests.UserMenuTest.TestCase6_MyProfileUserMenu(UserMenuTest.java:35)
+</failure>
+    <system-out><![CDATA[Pass : text entered
+Pass : text entered
+Pass : button clicked
+Pass : button clicked
+Pass : button clicked
+Pass : button clicked
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 8172
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 11, 2022 11:21:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TestCase7_MySettingUserMenu" classname="com.SalesForce.tests.UserMenuTest" time="15.796"/>
+  <testcase name="TestCase8_DeveloperConsole" classname="com.SalesForce.tests.UserMenuTest" time="7.525"/>
+  <testcase name="TestCase9_Logout" classname="com.SalesForce.tests.UserMenuTest" time="9.208"/>
+  <testcase name="TestCase10_CreateNewAccount" classname="com.SalesForce.tests.AccountTest" time="11.648"/>
+  <testcase name="TestCase13_MergeAccount" classname="com.SalesForce.tests.AccountTest" time="17.905"/>
+  <testcase name="TestCase14_CreateAccountReport" classname="com.SalesForce.tests.AccountTest" time="43.205">
+    <failure message="Expected condition failed: waiting for title to contain &quot;ReportDimond&quot;. Current title: &quot;Unsaved Report ~ Salesforce - Developer Edition&quot; (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;tejal-home&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-167-generic&apos;, java.version: &apos;17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.t3dM03}, goog:chromeOptions: {debuggerAddress: localhost:43289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 85d8a972a4098dfad1d9b5610f05158b" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to contain "ReportDimond". Current title: "Unsaved Report ~ Salesforce - Developer Edition" (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'tejal-home', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-167-generic', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.t3dM03}, goog:chromeOptions: {debuggerAddress: localhost:43289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 85d8a972a4098dfad1d9b5610f05158b
+	at com.SalesForce.tests.AccountTest.TestCase14_CreateAccountReport(AccountTest.java:145)
+</failure>
+    <system-out><![CDATA[Pass : text entered
+Pass : text entered
+Pass : button clicked
+Pass : button clicked
+Pass : button clicked
+Pass : text entered
+Pass : button clicked
+Pass : text entered
+Pass : text entered
+Pass : button clicked
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 22366
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 11, 2022 11:23:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TestCase11_CreateNewView" classname="com.SalesForce.tests.AccountTest" time="18.498"/>
+  <testcase name="TestCase12_EditView" classname="com.SalesForce.tests.AccountTest" time="12.801"/>
+  <testcase name="TestCase15_OppertunityDropDown" classname="com.SalesForce.tests.OppertunityTest" time="8.751"/>
+  <testcase name="TestCase16_CreateOppertunity" classname="com.SalesForce.tests.OppertunityTest" time="13.092"/>
+  <testcase name="TestCase17_OppertunityPipelineReport" classname="com.SalesForce.tests.OppertunityTest" time="8.219"/>
+  <testcase name="TestCase18_StuckOppertunityReport" classname="com.SalesForce.tests.OppertunityTest" time="8.932"/>
+  <testcase name="TestCase19_OppertunitySummeryReport" classname="com.SalesForce.tests.OppertunityTest" time="9.805"/>
+  <testcase name="TestCase20_LeadTab" classname="com.SalesForce.tests.LeadsTest" time="9.406"/>
+  <testcase name="TestCase21_LeadsSelectView" classname="com.SalesForce.tests.LeadsTest" time="8.379"/>
+  <testcase name="TestCase22_LeadsDefaultView" classname="com.SalesForce.tests.LeadsTest" time="14.241"/>
+  <testcase name="TestCase23_TodaysLead" classname="com.SalesForce.tests.LeadsTest" time="8.398"/>
+  <testcase name="TestCase24_NewLead" classname="com.SalesForce.tests.LeadsTest" time="11.069"/>
+  <testcase name="TestCase25_CreateNewContact" classname="com.SalesForce.tests.ContactsTest" time="10.767"/>
+  <testcase name="TestCase26_NewViewContacts" classname="com.SalesForce.tests.ContactsTest" time="10.961"/>
+  <testcase name="TestCase27_RecentCreatedContacts" classname="com.SalesForce.tests.ContactsTest" time="9.924"/>
+  <testcase name="TestCase28_MyContactsView" classname="com.SalesForce.tests.ContactsTest" time="10.881"/>
+  <testcase name="TestCase29_ViewContact" classname="com.SalesForce.tests.ContactsTest" time="8.571"/>
+  <testcase name="TestCase30_NewViewError" classname="com.SalesForce.tests.ContactsTest" time="8.921"/>
+  <testcase name="TestCase31_CheckCancelButton" classname="com.SalesForce.tests.ContactsTest" time="11.534"/>
+  <testcase name="TestCase32_CheckSaveNewButton" classname="com.SalesForce.tests.ContactsTest" time="11.265"/>
+  <testcase name="TestCase33_FirstnameLastnameLink" classname="com.SalesForce.tests.RandomSceanarioTest" time="12.162"/>
+  <testcase name="TestCase34_VerifyEditLastname" classname="com.SalesForce.tests.RandomSceanarioTest" time="70.061">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //a[contains(text(),&apos;About&apos;)]&apos; (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'About')]' (tried for 30 second(s) with 500 milliseconds interval)
+	at com.SalesForce.tests.RandomSceanarioTest.TestCase34_VerifyEditLastname(RandomSceanarioTest.java:37)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'About')]"}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'tejal-home', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-167-generic', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.GAuBOw}, goog:chromeOptions: {debuggerAddress: localhost:33185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cbabc352ffaf71b4e53b24639d78adf5
+*** Element info: {Using=xpath, value=//a[contains(text(),'About')]}
+	at com.SalesForce.tests.RandomSceanarioTest.TestCase34_VerifyEditLastname(RandomSceanarioTest.java:37)
+</failure>
+    <system-out><![CDATA[Pass : text entered
+Pass : text entered
+Pass : button clicked
+Pass : button clicked
+Pass : button clicked
+Pass : button clicked
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 28680
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 11, 2022 11:29:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TestCase35_VerifyTabCustomization" classname="com.SalesForce.tests.RandomSceanarioTest" time="51.587"/>
+  <testcase name="TestCase36_BlockEventCalender" classname="com.SalesForce.tests.RandomSceanarioTest" time="17.283"/>
+  <testcase name="TestCase37_BlockEventWeek" classname="com.SalesForce.tests.RandomSceanarioTest" time="17.669"/>
+</testsuite>

@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 38, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 682.885 sec <<< FAILURE! - in TestSuite
+TestCase2_ValidUsernamePassword(com.SalesForce.tests.LoginTest)  Time elapsed: 6.055 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Home Page ~ Salesforce - Developer Edition] but found []
+	at com.SalesForce.tests.LoginTest.TestCase2_ValidUsernamePassword(LoginTest.java:42)
+
+TestCase6_MyProfileUserMenu(com.SalesForce.tests.UserMenuTest)  Time elapsed: 70.242 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'About')]' (tried for 30 second(s) with 500 milliseconds interval)
+	at com.SalesForce.tests.UserMenuTest.TestCase6_MyProfileUserMenu(UserMenuTest.java:35)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'About')]"}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'tejal-home', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-167-generic', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.Y9Ufn5}, goog:chromeOptions: {debuggerAddress: localhost:39759}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9aacc7787c57829004e8abbc27ba4508
+*** Element info: {Using=xpath, value=//a[contains(text(),'About')]}
+	at com.SalesForce.tests.UserMenuTest.TestCase6_MyProfileUserMenu(UserMenuTest.java:35)
+
+TestCase14_CreateAccountReport(com.SalesForce.tests.AccountTest)  Time elapsed: 43.205 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to contain "ReportDimond". Current title: "Unsaved Report ~ Salesforce - Developer Edition" (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'tejal-home', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-167-generic', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.t3dM03}, goog:chromeOptions: {debuggerAddress: localhost:43289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 85d8a972a4098dfad1d9b5610f05158b
+	at com.SalesForce.tests.AccountTest.TestCase14_CreateAccountReport(AccountTest.java:145)
+
+TestCase34_VerifyEditLastname(com.SalesForce.tests.RandomSceanarioTest)  Time elapsed: 70.061 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'About')]' (tried for 30 second(s) with 500 milliseconds interval)
+	at com.SalesForce.tests.RandomSceanarioTest.TestCase34_VerifyEditLastname(RandomSceanarioTest.java:37)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'About')]"}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'tejal-home', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-167-generic', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.GAuBOw}, goog:chromeOptions: {debuggerAddress: localhost:33185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cbabc352ffaf71b4e53b24639d78adf5
+*** Element info: {Using=xpath, value=//a[contains(text(),'About')]}
+	at com.SalesForce.tests.RandomSceanarioTest.TestCase34_VerifyEditLastname(RandomSceanarioTest.java:37)
+

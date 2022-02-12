@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SalesForceAutomationTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.SalesForce.tests.LoginTest">
+        <methods>
+          <include name="endUp"/>
+          <include name="setUp"/>
+          <include name="TestCase2_ValidUsernamePassword"/>
+          <include name="initialSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.SalesForce.tests.LoginTest -->
+      <class name="com.SalesForce.tests.AccountTest">
+        <methods>
+          <include name="endUp"/>
+          <include name="setUp"/>
+          <include name="TestCase14_CreateAccountReport"/>
+          <include name="initialSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.SalesForce.tests.AccountTest -->
+      <class name="com.SalesForce.tests.RandomSceanarioTest">
+        <methods>
+          <include name="TestCase34_VerifyEditLastname"/>
+          <include name="endUp"/>
+          <include name="setUp"/>
+          <include name="initialSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.SalesForce.tests.RandomSceanarioTest -->
+      <class name="com.SalesForce.tests.UserMenuTest">
+        <methods>
+          <include name="endUp"/>
+          <include name="TestCase6_MyProfileUserMenu"/>
+          <include name="setUp"/>
+          <include name="initialSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.SalesForce.tests.UserMenuTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SalesForceAutomationTestSuite] -->
